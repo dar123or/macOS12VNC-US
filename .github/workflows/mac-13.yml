@@ -7,7 +7,7 @@ defaults:
 
 jobs:
   build:
-    runs-on: macos-13-xlarge
+    runs-on: warp-macos-15-arm64-6x
     steps:
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v2
